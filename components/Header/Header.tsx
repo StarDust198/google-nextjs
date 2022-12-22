@@ -1,8 +1,6 @@
-import { User } from './User';
+import { User } from '../User/User';
 
-type Props = {};
-
-export const Header = (props: Props) => {
+export const Header = () => {
   return (
     <header className="flex justify-between p-5 text-sm text-gray-700">
       <div className="flex space-x-4 items-center">

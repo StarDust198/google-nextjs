@@ -2,13 +2,12 @@ import { useRef, MouseEvent } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-
 import { MagnifyingGlassIcon, MicrophoneIcon } from '@heroicons/react/24/solid';
-import { Header } from '../components/Header';
-import { Footer } from '../components/Footer';
+
+import { Header } from '../components';
+import { Footer } from '../components/Footer/Footer';
 
 // import { Inter } from '@next/font/google'
-
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
   const router = useRouter();
 
   const search = (e: MouseEvent): void => {
-    e.preventDefault;
+    e.preventDefault();
     const term = searchRef.current?.value.trim();
     if (!term) return;
     router.push(`/search?term=${term}`);
