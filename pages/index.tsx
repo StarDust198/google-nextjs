@@ -1,14 +1,27 @@
+import { useRef, MouseEvent } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 import { MagnifyingGlassIcon, MicrophoneIcon } from '@heroicons/react/24/solid';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+
 // import { Inter } from '@next/font/google'
 
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const searchRef = useRef<HTMLInputElement>(null);
+  const router = useRouter();
+
+  const search = (e: MouseEvent): void => {
+    e.preventDefault;
+    const term = searchRef.current?.value.trim();
+    if (!term) return;
+    router.push(`/search?term=${term}`);
+  };
+
   return (
     <>
       <Head>
@@ -31,11 +44,17 @@ export default function Home() {
         />
         <div className="flex w-full mt-5 mx-auto max-w-[90%] border border-gray-200 hover:shadow-lg focus-within:shadow-lg px-5 py-3 rounded-full items-center sm:max-w-xl lg:max-w-2xl">
           <MagnifyingGlassIcon className="h-5 text-gray-500 mr-3" />
-          <input type="text" className="grow focus:outline-none" />
+          <input
+            ref={searchRef}
+            type="text"
+            className="grow focus:outline-none"
+          />
           <MicrophoneIcon className="h-5" />
         </div>
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 mt-8 justify-center">
-          <button className="btn">Google Search</button>
+          <button className="btn" onClick={search}>
+            Google Search
+          </button>
           <button className="btn">{"I'm Feeling Lucky"}</button>
         </div>
       </form>
