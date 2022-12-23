@@ -2,21 +2,26 @@ import { GetServerSideProps, GetServerSidePropsContext } from 'next';
 import Head from 'next/head';
 import { ParsedUrlQuery } from 'node:querystring';
 import { SearchHeader } from '../components/SearchHeader/SearchHeader';
+import { SearchInfo } from '../components/SearchInfo/SearchInfo';
 import response from '../response.json';
 
-function Search({ results }: { results: any }) {
+function Search({ results, term }: { results: any; term: string }) {
   console.log(results);
 
   return (
     <>
       <Head>
-        <title>Google Next Search</title>
+        <title>GoogleNext: results for {term}</title>
       </Head>
       <div>
         {/* Search Header */}
         <SearchHeader />
 
         {/* Search results */}
+        <SearchInfo
+          time={results.searchInformation.formattedSearchTime}
+          total={results.searchInformation.formattedTotalResults}
+        />
       </div>
     </>
   );
@@ -40,6 +45,7 @@ export const getServerSideProps: GetServerSideProps = async (
       ).then((response) => response.json());
   return {
     props: {
+      term: context.query.term,
       results: data,
     },
   };
