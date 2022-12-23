@@ -6,7 +6,12 @@ import {
   MagnifyingGlassIcon,
   XMarkIcon,
 } from '@heroicons/react/24/solid';
+import {
+  PhotoIcon,
+  MagnifyingGlassIcon as MagnifyingGlassOutlineIcon,
+} from '@heroicons/react/24/outline';
 import { User } from '../User/User';
+import { SearchHeaderOption } from '../SearchHeaderOption/SearchHeaderOption';
 
 export const SearchHeader = () => {
   const searchRef = useRef<HTMLInputElement>(null);
@@ -16,7 +21,7 @@ export const SearchHeader = () => {
     e.preventDefault();
     const term = searchRef.current?.value.trim();
     if (!term) return;
-    router.push(`/search?term=${term}`);
+    router.push(`/search?term=${term}&searchType=`);
   };
 
   return (
@@ -51,6 +56,24 @@ export const SearchHeader = () => {
           <button hidden />
         </form>
         <User className="ml-auto" />
+      </div>
+      <div className="flex justify-center text-sm border-b lg:pl-52 lg:justify-start space-x-8 w-full text-gray-700 select-none">
+        <SearchHeaderOption
+          onClick={() =>
+            router.push(`/search?term=${router.query.term}&searchType=`)
+          }
+          title="All"
+          Icon={MagnifyingGlassOutlineIcon}
+          selected={router.query.searchType === '' || !router.query.searchType}
+        />
+        <SearchHeaderOption
+          onClick={() =>
+            router.push(`/search?term=${router.query.term}&searchType=image`)
+          }
+          title="Images"
+          Icon={PhotoIcon}
+          selected={router.query.searchType === 'image'}
+        />
       </div>
     </header>
   );
