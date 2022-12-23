@@ -1,0 +1,514 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - Stan March",
+        "totalResults": "78900000",
+        "searchTerms": "Stan March",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "f0639434bfcee45c2"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - Stan March",
+        "totalResults": "78900000",
+        "searchTerms": "Stan March",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "f0639434bfcee45c2"
+      }
+    ]
+  },
+  "context": {
+    "title": "go-next"
+  },
+  "searchInformation": {
+    "searchTime": 0.384492,
+    "formattedSearchTime": "0.38",
+    "totalResults": "78900000",
+    "formattedTotalResults": "78,900,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Stan March - New York City Metropolitan Area | Professional Profile ...",
+      "htmlTitle": "<b>Stan March</b> - New York City Metropolitan Area | Professional Profile ...",
+      "link": "https://www.linkedin.com/in/stan-march",
+      "displayLink": "www.linkedin.com",
+      "snippet": "View Stan March's professional profile on LinkedIn. LinkedIn is the world's largest business network, helping professionals like Stan March discover inside ...",
+      "htmlSnippet": "View <b>Stan March&#39;s</b> professional profile on LinkedIn. LinkedIn is the world&#39;s largest business network, helping professionals like <b>Stan March</b> discover inside&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/stan-march",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/<b>stan</b>-<b>march</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTPuLYCR_N6epV7y1Qsy638jX0Ne32Hx5NaQSNZa91VxYGSrsqRKnpPOpI",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media-exp1.licdn.com/dms/image/C4E03AQGJZqUhXgzceQ/profile-displayphoto-shrink_800_800/0/1594070473249?e=2147483647&v=beta&t=PG3btaXMgXJywazH5tSttinTygGJLspZaWu5SYlX-WI",
+            "twitter:card": "summary",
+            "platform-worker": "https://static-exp1.licdn.com/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/stan-march",
+            "og:description": "View Stan March’s professional profile on LinkedIn. LinkedIn is the world’s largest business network, helping professionals like Stan March discover inside connections to recommended job candidates, industry experts, and business partners.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static-exp1.licdn.com/sc/h/6hhhxfljzx7iwl0pk0cto95d",
+            "twitter:image": "https://media-exp1.licdn.com/dms/image/C4E03AQGJZqUhXgzceQ/profile-displayphoto-shrink_800_800/0/1594070473249?e=2147483647&v=beta&t=PG3btaXMgXJywazH5tSttinTygGJLspZaWu5SYlX-WI",
+            "profile:last_name": "March",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Stan",
+            "og:type": "profile",
+            "twitter:title": "Stan March - New York City Metropolitan Area | Professional Profile | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Stan March - New York City Metropolitan Area | Professional Profile | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/stan-march",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "View Stan March’s professional profile on LinkedIn. LinkedIn is the world’s largest business network, helping professionals like Stan March discover inside connections to recommended job candidates, industry experts, and business partners.",
+            "ubba": "https://static-exp1.licdn.com/sc/h/2q57ynox1ewa2v1doyy3ccsun",
+            "og:url": "https://www.linkedin.com/in/stan-march",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media-exp1.licdn.com/dms/image/C4E03AQGJZqUhXgzceQ/profile-displayphoto-shrink_800_800/0/1594070473249?e=2147483647&v=beta&t=PG3btaXMgXJywazH5tSttinTygGJLspZaWu5SYlX-WI"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Stan March - Wikipedia",
+      "htmlTitle": "<b>Stan March</b> - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Stan_March",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Stanley March (born 26 December 1938) is an English former footballer. Stan March. Personal information. Full name, Stanley March.",
+      "htmlSnippet": "<b>Stanley March</b> (born 26 December 1938) is an English former footballer. <b>Stan March</b>. Personal information. Full name, <b>Stanley March</b>.",
+      "cacheId": "m8YEP7Lr0FwJ",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Stan_March",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Stan</b>_<b>March</b>",
+      "pagemap": {
+        "hcard": [
+          {
+            "role": "Inside-forward",
+            "bday": "1938-12-26",
+            "fn": "Stan March",
+            "nickname": "Stanley March[1]"
+          }
+        ],
+        "person": [
+          {
+            "role": "Inside-forward"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "theme-color": "#eaecf0",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Stan March - Wikipedia",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Stanley March (1980) - Hall of Fame - National Football Foundation",
+      "htmlTitle": "<b>Stanley March</b> (1980) - Hall of Fame - National Football Foundation",
+      "link": "https://footballfoundation.org/hof_scholars.aspx?hof=421",
+      "displayLink": "footballfoundation.org",
+      "snippet": "Captain of the 1980 Army football team, defensive tackle Stan March registered the most minutes played and ranked third on the team with 81 tackles made, ...",
+      "htmlSnippet": "Captain of the 1980 Army football team, defensive tackle <b>Stan March</b> registered the most minutes played and ranked third on the team with 81 tackles made,&nbsp;...",
+      "cacheId": "lN9dHYuOyFAJ",
+      "formattedUrl": "https://footballfoundation.org/hof_scholars.aspx?hof=421",
+      "htmlFormattedUrl": "https://footballfoundation.org/hof_scholars.aspx?hof=421",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqXpsSnyeKuQGyvveqGDqivzsrZx5nKTqAJDB79O6o4ltO1Fw6zbVJwQgx",
+            "width": "188",
+            "height": "268"
+          }
+        ],
+        "metatags": [
+          {
+            "og:determiner": "the",
+            "theme-color": "#133C6B",
+            "og:site_name": "National Football Foundation",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+            "og:locale": "en_US",
+            "og:url": "https://footballfoundation.org/hof_scholars.aspx?hof=421"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://footballfoundation.org/images/2018/8/8/421_March_Stanley_Army.jpg?width=300"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Stan Marsh - Wikipedia",
+      "htmlTitle": "<b>Stan</b> Marsh - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Stan_Marsh",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Stanley Randell William Marsh is a fictional character in the adult animated television series South Park. He is voiced by and loosely based on series ...",
+      "htmlSnippet": "<b>Stanley</b> Randell William Marsh is a fictional character in the adult animated television series South Park. He is voiced by and loosely based on series&nbsp;...",
+      "cacheId": "tlXtUXoG2g4J",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Stan_Marsh",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Stan</b>_Marsh",
+      "pagemap": {
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/en/a/a7/StanMarsh.png",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Stan Marsh - Wikipedia",
+            "og:image:height": "1864",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Landis+Gyr Names Stan March as Senior V.P. Corporate ...",
+      "htmlTitle": "Landis+Gyr Names <b>Stan March</b> as Senior V.P. Corporate ...",
+      "link": "https://www.smart-energy.com/regional-news/north-america/landis-gyr-names-stan-march-as-senior-v-p-corporate-communications/",
+      "displayLink": "www.smart-energy.com",
+      "snippet": "Sep 9, 2008 ... ... Stan March as Senior Vice President of Corporate Communications.Mr. March, 49, joins from STMicroelectronics, where he served as Group ...",
+      "htmlSnippet": "Sep 9, 2008 <b>...</b> ... <b>Stan March</b> as Senior Vice President of Corporate Communications.Mr. March, 49, joins from STMicroelectronics, where he served as Group&nbsp;...",
+      "cacheId": "oKkTJN0P8tYJ",
+      "formattedUrl": "https://www.smart-energy.com/.../landis-gyr-names-stan-march-as-senior-v-p -corporate-communications/",
+      "htmlFormattedUrl": "https://www.smart-energy.com/.../landis-gyr-names-<b>stan</b>-<b>march</b>-as-senior-v-p -corporate-communications/",
+      "pagemap": {
+        "hcard": [
+          {
+            "fn": "Smart Energy International"
+          }
+        ],
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrbSsrJ4pa340PO2ZrCdtEllWl7VkTTyLkjlbCoBrFPrQ48Q5UEJXg",
+            "width": "100",
+            "height": "51"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://www.smart-energy.com/regional-news/north-america/landis-gyr-names-stan-march-as-senior-v-p-corporate-communications/"
+          },
+          {
+            "width": "1068",
+            "url": "https://www.smart-energy.com/wp-content/themes/Newspaper/images/no-thumb/td_meta_replacement.png",
+            "height": "580"
+          }
+        ],
+        "person": [
+          {
+            "name": "Smart Energy International",
+            "url": "https://www.smart-energy.com/author/kim-jansen/"
+          }
+        ],
+        "organization": [
+          {
+            "name": "Smart Energy International"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://d346xxcyottdqx.cloudfront.net/wp-content/uploads/images/Landis_tag%5B1%5D.thumbnail.JPG",
+            "og:type": "article",
+            "article:published_time": "2008-09-09T16:08:28+00:00",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Smart Energy International",
+            "author": "Smart Energy International",
+            "og:title": "Landis+Gyr Names Stan March as Senior V.P. Corporate Communications | Smart Energy International",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:description": "Landis+Gyr Holdings, the global leader in energy management offering utilities next generation \"smart grid\" solutions, today announced the appointment of Stan March as Senior Vice President of Corporate Communications.Mr. March, 49, joins from STMicroelectronics, where he served as Group Vice President of Investor Relations.",
+            "twitter:creator": "@https://twitter.com/SmartEnergyTV",
+            "article:publisher": "https://www.facebook.com/SmartEnergyInternational/",
+            "article:author": "https://www.facebook.com/SmartEnergyInternational",
+            "twitter:data1": "Smart Energy International",
+            "twitter:data2": "3 minutes",
+            "twitter:site": "@SmartEnergyTV",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://www.smart-energy.com/regional-news/north-america/landis-gyr-names-stan-march-as-senior-v-p-corporate-communications/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://d346xxcyottdqx.cloudfront.net/wp-content/uploads/images/Landis_tag%5B1%5D.thumbnail.JPG"
+          }
+        ],
+        "article": [
+          {
+            "datemodified": "2008-09-09T18:08:28+02:00",
+            "headline": "Landis+Gyr Names Stan March as Senior V.P. Corporate Communications",
+            "datepublished": "2008-09-09T18:08:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Stan March Is The Vice President of Corporate Development ...",
+      "htmlTitle": "<b>Stan March</b> Is The Vice President of Corporate Development ...",
+      "link": "https://finance.yahoo.com/news/stan-march-vice-president-corporate-123958930.html",
+      "displayLink": "finance.yahoo.com",
+      "snippet": "Mar 19, 2022 ... Stan March Is The Vice President of Corporate Development & Communications of Workhorse Group Inc. (NASDAQ:WKHS) And They Just Picked Up 45% ...",
+      "htmlSnippet": "Mar 19, 2022 <b>...</b> <b>Stan March</b> Is The Vice President of Corporate Development &amp; Communications of Workhorse Group Inc. (NASDAQ:WKHS) And They Just Picked Up 45%&nbsp;...",
+      "cacheId": "y7vf6n2j9TUJ",
+      "formattedUrl": "https://finance.yahoo.com/.../stan-march-vice-president-corporate- 123958930.html",
+      "htmlFormattedUrl": "https://finance.yahoo.com/.../<b>stan</b>-<b>march</b>-vice-president-corporate- 123958930.html",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGfSH6aioGFbGNiIC6B5TrnINf8HaLS9De9jegWe5-GjsU-aFsljLfSYs",
+            "width": "374",
+            "height": "135"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=,app-argument=yfinance://article/fa4e7405-ad73-35c8-b4b1-adaa4f18d9e2",
+            "og:image": "https://media.zenfs.com/en/simply_wall_st__316/6540fe5988bdb3105f465c4ad0990b6f",
+            "twitter:title": "Stan March Is The Vice President of Corporate Development & Communications of Workhorse Group Inc. (NASDAQ:WKHS) And They Just Picked Up 45% More Shares",
+            "og:type": "article",
+            "og:image:width": "1194",
+            "twitter:card": "summary_large_image",
+            "og:title": "Stan March Is The Vice President of Corporate Development & Communications of Workhorse Group Inc. (NASDAQ:WKHS) And They Just Picked Up 45% More Shares",
+            "al:android:package": "com.yahoo.mobile.client.android.finance",
+            "og:image:height": "432",
+            "og:description": "Potential Workhorse Group Inc. ( NASDAQ:WKHS ) shareholders may wish to note that the Vice President of Corporate...",
+            "twitter:dnt": "on",
+            "twitter:image": "https://media.zenfs.com/en/simply_wall_st__316/6540fe5988bdb3105f465c4ad0990b6f",
+            "twitter:image:src": "https://media.zenfs.com/en/simply_wall_st__316/6540fe5988bdb3105f465c4ad0990b6f",
+            "al:android:url": "yfinance://article/fa4e7405-ad73-35c8-b4b1-adaa4f18d9e2",
+            "oath:guce:consent-host": "guce.yahoo.com",
+            "twitter:site": "@YahooFinance",
+            "viewport": "width=device-width, initial-scale=1",
+            "news_keywords": "Workhorse Group, Insider Transactions, Insider Ownership, Stan March, Insider Trading",
+            "twitter:description": "Potential Workhorse Group Inc. ( NASDAQ:WKHS ) shareholders may wish to note that the Vice President of Corporate...",
+            "og:url": "https://finance.yahoo.com/news/stan-march-vice-president-corporate-123958930.html",
+            "al:android:app_name": "Yahoo Finance"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.zenfs.com/en/simply_wall_st__316/6540fe5988bdb3105f465c4ad0990b6f"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Best Stan shows and movies March 2022: How to watch Joe vs ...",
+      "htmlTitle": "Best <b>Stan</b> shows and movies <b>March</b> 2022: How to watch Joe vs ...",
+      "link": "https://www.nine.com.au/entertainment/latest/stan-march-2022-tiger-king-carole-vs-joe/e4f1bed2-4ed8-41dc-981b-88d42d95a1de",
+      "displayLink": "www.nine.com.au",
+      "snippet": "New series drops March 4. Joe vs Carole, Stan, Kate McKinnon, John Cameron Mitchell, Carole Baskin, Kate McKinnon and John Cameron Mitchell as Carole Baskin and ...",
+      "htmlSnippet": "New series drops <b>March</b> 4. Joe vs Carole, <b>Stan</b>, Kate McKinnon, John Cameron Mitchell, Carole Baskin, Kate McKinnon and John Cameron Mitchell as Carole Baskin and&nbsp;...",
+      "cacheId": "ZloOX8KZtQgJ",
+      "formattedUrl": "https://www.nine.com.au/.../stan-march.../e4f1bed2-4ed8-41dc-981b- 88d42d95a1de",
+      "htmlFormattedUrl": "https://www.nine.com.au/.../<b>stan</b>-<b>march</b>.../e4f1bed2-4ed8-41dc-981b- 88d42d95a1de",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl_IhoPecHsdfePxAFomnm25e9D--VxGBww8HMMUDOvbkfj3jgb1rISv7L",
+            "width": "311",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "ninemsn:id": "e4f1bed2-4ed8-41dc-981b-88d42d95a1de",
+            "og:image": "https://imageresizer.static9.net.au/Ujo5CLFarWqrgkHtk_Z9rJ_cCu0=/1200x628/smart/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fd9a2f9a6-7cfe-45e9-925b-ad4941309621",
+            "og:type": "website",
+            "twitter:title": "Everything coming to Stan in March",
+            "twitter:card": "summary_large_image",
+            "nine:video-player:nielsen-plugin": "{\"apid\":\"P87F1899A-F65A-4179-BBF1-9F7C079A02FE\",\"apn\":\"nine.com.au - Entertainment\",\"custom_fields\":{\"hasAds\":1,\"program\":\"nine.com.au Entertainment Videos\"},\"nsdkv\":\"511,\",\"section\":\"Nine.com.au - Entertainment\",\"sfcode\":\"dcr\"}",
+            "nine:video-player:page-type": "article",
+            "nine:video-player:video-params:ad-unit": "entertainment/web",
+            "nine:video-player:granulartracking:pagetemplate": "article",
+            "og:title": "Everything coming to Stan in March",
+            "nine:video-player:video-params:videotrackingdestination": "https://entertainment.nine.com.au/latest/stan-march-2022-tiger-king-carole-vs-joe/e4f1bed2-4ed8-41dc-981b-88d42d95a1de",
+            "nine:video-player:content-id": "e4f1bed2-4ed8-41dc-981b-88d42d95a1de",
+            "og:description": "Tiger King adaptation leads a month worth of quality entertainment",
+            "twitter:image": "https://imageresizer.static9.net.au/Ujo5CLFarWqrgkHtk_Z9rJ_cCu0=/1200x628/smart/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fd9a2f9a6-7cfe-45e9-925b-ad4941309621",
+            "viewport": "width=device-width, initial-scale=1, minimum-scale=1",
+            "nine:video-player:video-params:video-name-prefix": "entertainment|Latest|Default|",
+            "twitter:description": "Tiger King adaptation leads a month worth of quality entertainment",
+            "nine:video-player:video-params:page-name": "entertainment:entertainment:latest:Everything coming to Stan in March 2022",
+            "nine:video-player:page-levels": "{\"pagelevel01\":\"entertainment\",\"pagelevel02\":\"latest\",\"pagelevel03\":\"\",\"pagelevel04\":\"\"}",
+            "og:url": "//www.nine.com.au/entertainment/latest/stan-march-2022-tiger-king-carole-vs-joe/e4f1bed2-4ed8-41dc-981b-88d42d95a1de"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://imageresizer.static9.net.au/Ujo5CLFarWqrgkHtk_Z9rJ_cCu0=/1200x628/smart/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fd9a2f9a6-7cfe-45e9-925b-ad4941309621"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Darkness halts Stan's march to R4 - Roland-Garros - The 2023 ...",
+      "htmlTitle": "Darkness halts <b>Stan&#39;s march</b> to R4 - Roland-Garros - The 2023 ...",
+      "link": "https://www.rolandgarros.com/en-us/article/stan-wawrinka-grigor-dimitrov-suspended-for-darkness",
+      "displayLink": "www.rolandgarros.com",
+      "snippet": "May 31, 2019 ... Darkness halts Stan's march to R4 ... Two matches were suspended for poor light and will be resumed on Saturday. Stan Wawrinka Roland Garros third ...",
+      "htmlSnippet": "May 31, 2019 <b>...</b> Darkness halts <b>Stan&#39;s march</b> to R4 ... Two matches were suspended for poor light and will be resumed on Saturday. Stan Wawrinka Roland Garros third&nbsp;...",
+      "cacheId": "CtRJPv3xhEsJ",
+      "formattedUrl": "https://www.rolandgarros.com/.../stan-wawrinka-grigor-dimitrov-suspended- for-darkness",
+      "htmlFormattedUrl": "https://www.rolandgarros.com/.../<b>stan</b>-wawrinka-grigor-dimitrov-suspended- for-darkness",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNTQc9g_tF-1Upvfj6CSVWDOr3-Z8KZCvbvOW7hkqYZz1IRiuQuVaSZjA",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "owner": "info@rolandgarros.com",
+            "og:image": "https://images.prismic.io/fft-rg-commun-news/f7d30a38f852a34c8a6a5b039be6186184007ade_20190531_rg_jc_0903_web.jpg?auto=compress,format",
+            "copyright": "&copy; Fédération Française de Tennis 1996, 2018. All Rights Reserved.",
+            "og:type": "article",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "apple-mobile-web-app-capable": "yes",
+            "og:title": "Darkness halts Stan's march to R4 - Roland-Garros - The 2023 Roland-Garros Tournament official site",
+            "reply-to": "webmaster@rolandgarros.com",
+            "og:description": "Two matches were suspended for poor light and will be resumed on Saturday.",
+            "article:author": "Sarah Edworthy",
+            "facebook-domain-verification": "qk3yzu8pwgsktlusbjfoxslu8e8a7w"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.prismic.io/fft-rg-commun-news/f7d30a38f852a34c8a6a5b039be6186184007ade_20190531_rg_jc_0903_web.jpg?auto=compress,format"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Here's Everything Coming To Stan In March 2022",
+      "htmlTitle": "Here&#39;s Everything Coming To <b>Stan</b> In <b>March</b> 2022",
+      "link": "https://www.refinery29.com/en-au/2022/02/10882558/stan-new-releases-march",
+      "displayLink": "www.refinery29.com",
+      "snippet": "Feb 24, 2022 ... From Joe vs Carole to Minx, these are all the TV shows and movies streaming on Stan in March.",
+      "htmlSnippet": "Feb 24, 2022 <b>...</b> From Joe vs Carole to Minx, these are all the TV shows and movies streaming on <b>Stan</b> in <b>March</b>.",
+      "cacheId": "J4auR0bLsLoJ",
+      "formattedUrl": "https://www.refinery29.com/en-au/2022/02/.../stan-new-releases-march",
+      "htmlFormattedUrl": "https://www.refinery29.com/en-au/2022/02/.../<b>stan</b>-new-releases-<b>march</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQb9AdeOEF2GmL2hRbXkw8VkDsDDGeARO0yDOJk7p4-LVFhFfF201GpMPIJ",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.refinery29.com/images/10882670.png?crop=2160%2C1134%2Cx0%2Cy0",
+            "theme-color": "#fd5b4e",
+            "og:image:width": "2000",
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Refinery29",
+            "amp-google-client-id-api": "googleanalytics",
+            "og:title": "Here’s Everything Coming To Stan In March",
+            "og:image:height": "1050",
+            "og:image:type": "png",
+            "og:image:secure_url": "https://www.refinery29.com/images/10882670.png?crop=2160%2C1134%2Cx0%2Cy0",
+            "article:publisher": "Refinery29Australia",
+            "fb:app_id": "155023867867753",
+            "twitter:site": "Refinery29AU",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+            "og:url": "https://www.refinery29.com/en-au/2022/02/10882558/stan-new-releases-march",
+            "amp-consent-blocking": "comscore,doubleclick,googleanalytics,gtm,nielsen,outbrain,skimlinks,spotim,amp-plus-scripts"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.refinery29.com/images/10882670.png?crop=2160%2C1134%2Cx0%2Cy0"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Best new movies and TV series on Stan: March 2022",
+      "htmlTitle": "Best new movies and TV series on <b>Stan</b>: <b>March</b> 2022",
+      "link": "https://www.flicks.com.au/features/best-new-movies-and-tv-series-on-stan-march-2022/",
+      "displayLink": "www.flicks.com.au",
+      "snippet": "Mar 4, 2022 ... All titles arriving on Stan in March. March 1. Changing the Game Herself The Wedding Speech Kill the Irishman. March 2. Gangs of Baboon Falls: ...",
+      "htmlSnippet": "Mar 4, 2022 <b>...</b> All titles arriving on <b>Stan</b> in <b>March</b>. <b>March</b> 1. Changing the Game Herself The Wedding Speech Kill the Irishman. <b>March</b> 2. Gangs of Baboon Falls:&nbsp;...",
+      "cacheId": "Ycz6fL7DBXwJ",
+      "formattedUrl": "https://www.flicks.com.au/.../best-new-movies-and-tv-series-on-stan-march- 2022/",
+      "htmlFormattedUrl": "https://www.flicks.com.au/.../best-new-movies-and-tv-series-on-<b>stan</b>-<b>march</b>- 2022/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXGiLQLW3-EdN49h46sP2ZxoCjtgwi9Qjv0V_gYrzBoDYRBN1tMj9DB8",
+            "width": "299",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://blog.flicks.co.nz/wp-content/uploads/the-girl-from-plainville-567x319.png",
+            "apple-itunes-app": "app-id=338053302",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Best new movies and TV series on Stan: March 2022",
+            "og:site_name": "Flicks.com.au",
+            "og:title": "Best new movies and TV series on Stan: March 2022",
+            "apple-mobile-web-app-title": "Flicks",
+            "og:description": "Your jam-packed guide to everything landing on Stan this month.",
+            "twitter:image": "https://blog.flicks.co.nz/wp-content/uploads/the-girl-from-plainville-567x319.png",
+            "twitter:site": "@FlicksAustralia",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+            "twitter:description": "Your jam-packed guide to everything landing on Stan this month."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://blog.flicks.co.nz/wp-content/uploads/the-girl-from-plainville-567x319.png"
+          }
+        ]
+      }
+    }
+  ]
+}
