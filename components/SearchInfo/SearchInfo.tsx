@@ -8,10 +8,8 @@ export const SearchInfo = ({
   ...props
 }: SearchInfoProps) => {
   return (
-    <div className="w-full px-3 sm:pl-[5%] md:pl-[14%] lg:pl-52" {...props}>
-      <p className="text-sm text-gray-600 mb-5 mt-3">
-        About {total} results ({time} seconds)
-      </p>
-    </div>
+    <p className={`text-sm text-gray-600 mb-5 mt-3 ${className}`} {...props}>
+      About {total} results ({time} seconds)
+    </p>
   );
 };
