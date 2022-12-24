@@ -5,3 +5,4 @@ export * from './User/User';
 export * from './SearchHeaderOption/SearchHeaderOption';
 export * from './SearchInfo/SearchInfo';
 export * from './SearchResult/SearchResult';
+export * from './PaginationButtons/PaginationButtons';

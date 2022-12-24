@@ -1,7 +1,12 @@
 import { GetServerSideProps, GetServerSidePropsContext } from 'next';
 import Head from 'next/head';
 import { ParsedUrlQuery } from 'querystring';
-import { SearchHeader, SearchInfo, SearchResult } from '../components';
+import {
+  PaginationButtons,
+  SearchHeader,
+  SearchInfo,
+  SearchResult,
+} from '../components';
 import { FoundItem, FoundResult } from '../interfaces/searchResults.interface';
 import response from '../response.json';
 
@@ -34,6 +39,7 @@ function Search({ results, term }: SearchProps) {
               />
             )
           )}
+          <PaginationButtons />
         </div>
       </div>
     </>
@@ -45,6 +51,7 @@ export default Search;
 export const getServerSideProps: GetServerSideProps<SearchProps> = async (
   context: GetServerSidePropsContext<ParsedUrlQuery>
 ) => {
+  const startIndex = context.query.start || '1';
   const mock = true;
 
   const term = typeof context.query.term === 'string' ? context.query.term : '';
@@ -55,8 +62,8 @@ export const getServerSideProps: GetServerSideProps<SearchProps> = async (
         `https://www.googleapis.com/customsearch/v1?key=${
           process.env.API_KEY
         }&cx=${process.env.CONTEXT_KEY}&q=${term}${
-          context.query.searchType && '&searchType=image'
-        }`
+          context.query.searchType ? '&searchType=image' : ''
+        }&start=${startIndex}`
       ).then((response) => response.json());
   return {
     props: {
