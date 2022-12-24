@@ -3,10 +3,7 @@ import Parser from 'html-react-parser';
 import { SearchResultProps } from './SearchResult.props';
 
 export const SearchResult = ({
-  link,
-  formattedUrl,
-  title,
-  htmlSnippet,
+  result: { link, title, formattedUrl, htmlSnippet },
   className,
   ...props
 }: SearchResultProps) => {

@@ -1,7 +1,7 @@
 import { DetailedHTMLProps, HTMLAttributes } from 'react';
-import { FoundItem } from '../../interfaces/searchResults.interface';
+import { ImageItem } from '../../interfaces/searchResults.interface';
 
-export interface SearchResultProps
+export interface ImageResultProps
   extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-  result: FoundItem;
+  result: ImageItem;
 }

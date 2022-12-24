@@ -1,18 +1,26 @@
 export interface SearchInfo {
   formattedSearchTime: string;
   formattedTotalResults: string;
-  // searchTime: number;
-  // totalResults: string;
 }
 
-export interface FoundItem {
+interface Item {
   link: string;
-  formattedUrl: string;
   title: string;
+}
+
+export interface FoundItem extends Item {
+  formattedUrl: string;
   htmlSnippet: string;
+}
+
+export interface ImageItem extends Item {
+  displayLink: string;
+  image: {
+    contextLink: string;
+  };
 }
 
 export interface FoundResult {
   searchInformation: SearchInfo;
-  items: FoundItem[];
+  items: FoundItem[] | ImageItem[];
 }
