@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { UserProps } from './User.props';
 
@@ -7,11 +8,13 @@ export const User = ({ className, ...props }: UserProps) => {
     return (
       <>
         {session.user?.image && (
-          <img
-            src={session.user?.image}
+          <Image
+            src={session.user.image}
             alt="User Image"
+            height={40}
+            width={40}
             onClick={() => signOut()}
-            className={`w-10 h-10 rounded-full p-1 hover:bg-gray-200 cursor-pointer whitespace-nowrap ${className}`}
+            className={`rounded-full p-1 hover:bg-gray-200 cursor-pointer ${className}`}
           />
         )}
       </>

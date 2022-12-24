@@ -2,12 +2,10 @@ import { GetServerSideProps, GetServerSidePropsContext } from 'next';
 import Head from 'next/head';
 import { ParsedUrlQuery } from 'querystring';
 import {
-  ImageOutput,
   ImageResult,
   PaginationButtons,
   SearchHeader,
   SearchInfo,
-  SearchOutput,
   SearchResult,
 } from '../components';
 import {
@@ -24,7 +22,8 @@ function Search({ results, term, searchType }: SearchProps) {
   return (
     <>
       <Head>
-        <title>GoogleNext: results for {term}</title>
+        <title>{`GoogleNext: results for ${term}`}</title>
+        {/* <title>Search Results</title> */}
       </Head>
       <div>
         {/* Search Header */}

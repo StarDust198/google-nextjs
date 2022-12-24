@@ -20,6 +20,15 @@ export default function Home() {
     router.push(`/search?term=${term}&searchType=`);
   };
 
+  const randomSearch = async (e: MouseEvent): Promise<void> => {
+    e.preventDefault();
+    const term = await fetch(
+      'https://random-word.ryanrk.com/api/en/word/random'
+    ).then((res) => res.json());
+    if (!term[0]) return;
+    router.push(`/search?term=${term[0]}&searchType=`);
+  };
+
   return (
     <>
       <Head>
@@ -53,7 +62,9 @@ export default function Home() {
           <button className="btn" onClick={search}>
             Google Search
           </button>
-          <button className="btn">{"I'm Feeling Lucky"}</button>
+          <button className="btn" onClick={randomSearch}>
+            {"I'm Feeling Lucky"}
+          </button>
         </div>
       </form>
 
