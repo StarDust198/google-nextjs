@@ -5,7 +5,7 @@ import {
   MicrophoneIcon,
   MagnifyingGlassIcon,
   XMarkIcon,
-} from '@heroicons/react/24/solid';
+} from '@heroicons/react/20/solid';
 import {
   PhotoIcon,
   MagnifyingGlassIcon as MagnifyingGlassOutlineIcon,

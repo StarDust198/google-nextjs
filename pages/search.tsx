@@ -17,13 +17,11 @@ import response from '../response.json';
 import responseImages from '../responseImages.json';
 
 function Search({ results, term, searchType }: SearchProps) {
-  // console.log(results, searchType);
-
+  console.log(results);
   return (
     <>
       <Head>
         <title>{`GoogleNext: results for ${term}`}</title>
-        {/* <title>Search Results</title> */}
       </Head>
       <div>
         {/* Search Header */}
@@ -31,7 +29,7 @@ function Search({ results, term, searchType }: SearchProps) {
 
         {/* Search results */}
         {searchType === 'image' ? (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-3 gap-4 mt-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-3 gap-6 my-6">
             {results.items?.map((item) => (
               <ImageResult key={item.link} result={item as ImageItem} />
             ))}
@@ -63,14 +61,18 @@ export const getServerSideProps: GetServerSideProps<SearchProps> = async (
   const term = typeof context.query.term === 'string' ? context.query.term : '';
   const startIndex = context.query.start || '1';
   const searchType = context.query.searchType ? 'image' : '';
-  const mock = true;
+  const mock = false;
 
   const data = mock
     ? context.query.searchType
       ? responseImages
       : response
     : await fetch(
-        `https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${process.env.CONTEXT_KEY}&q=${term}&searchType=${searchType}&start=${startIndex}`
+        `https://www.googleapis.com/customsearch/v1?key=${
+          process.env.API_KEY
+        }&cx=${process.env.CONTEXT_KEY}&q=${term}${
+          searchType ? '&searchType=image' : ''
+        }&start=${startIndex}`
       ).then((response) => response.json());
   return {
     props: {

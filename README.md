@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Google Clone
 
-## Getting Started
+Simplified close of google made for educational purposes.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### The challenge
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+My goal was to make a website look similar to google on React/NextJS, practice with TypeScript and SSR.
 
-## Learn More
+### Links
 
-To learn more about Next.js, take a look at the following resources:
+- Live Site URL: [The future live site URL](https://google.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## My process
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Built with
 
-## Deploy on Vercel
+- Semantic HTML5 markup, Flexbox, CSS Grid,
+- [TypeScript](https://www.typescriptlang.org/) - Strongly typed programming language built upon JS
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [NextAuth.js](https://next-auth.js.org/) - Authentication for Next.js
+- [TailwindCSS](https://tailwindcss.com/) - For styles
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### What I learned
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I've learned to use Google Programmable Search API, to autentificate with NextAuth, to type response wtih TypeScript better.
+
+### Continued development
+
+I'm not planning to develop this project much further, but I can see possibilities of the images page to be made.
+
+### Useful resources
+
+- [Hero Icons](https://heroicons.com/) - Very useful Icon Library from the creators of TailwindCSS
+
+## Author
+
+- Website - [Sergey Zhilinskiy](https://www.linkedin.com/in/mars2030/)
+- Twitter - [@Serg198x](https://twitter.com/Serg198x)
+
+## Acknowledgments
+
+- [Udemy](https://www.udemy.com) - Great resourse for studying on many specialities
+- [Dr. Sahand Ghavidel's page on Udemy](https://www.udemy.com/user/sahand-ghavidel/) - Teacher, whos courses I would highly recommed to anyone studying Web Development. The app is based on his course, with my additions & TypeScript
