@@ -13,11 +13,11 @@ import {
   FoundResult,
   ImageItem,
 } from '../interfaces/searchResults.interface';
-import response from '../response.json';
-import responseImages from '../responseImages.json';
+import response from '../testResponse.json';
+import responseImages from '../testResponseImages.json';
 
 function Search({ results, term, searchType }: SearchProps) {
-  console.log(results);
+  // console.log(results);
   return (
     <>
       <Head>

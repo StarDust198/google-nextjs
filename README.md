@@ -13,9 +13,6 @@ Simplified close of google made for educational purposes.
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,7 +22,7 @@ My goal was to make a website look similar to google on React/NextJS, practice w
 
 ### Links
 
-- Live Site URL: [The future live site URL](https://google.com)
+- Live Site URL - will be available soon: [The future live site URL](https://google.com)
 
 ## My process
 
@@ -48,14 +45,11 @@ I'm not planning to develop this project much further, but I can see possibiliti
 
 ### Useful resources
 
+- [Udemy](https://www.udemy.com) - Great resourse for studying on many specialities
+- [Dr. Sahand Ghavidel's page on Udemy](https://www.udemy.com/user/sahand-ghavidel/) - Teacher, whos courses I would highly recommed to anyone studying Web Development. The app is based on his course, with my additions & TypeScript
 - [Hero Icons](https://heroicons.com/) - Very useful Icon Library from the creators of TailwindCSS
 
 ## Author
 
-- Website - [Sergey Zhilinskiy](https://www.linkedin.com/in/mars2030/)
-- Twitter - [@Serg198x](https://twitter.com/Serg198x)
-
-## Acknowledgments
-
-- [Udemy](https://www.udemy.com) - Great resourse for studying on many specialities
-- [Dr. Sahand Ghavidel's page on Udemy](https://www.udemy.com/user/sahand-ghavidel/) - Teacher, whos courses I would highly recommed to anyone studying Web Development. The app is based on his course, with my additions & TypeScript
+- LinkedIn - [Sergey Zhilinskiy](https://www.linkedin.com/in/mars2030/)
+- Github - [My page](https://github.com/StarDust198), 2022
