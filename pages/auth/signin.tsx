@@ -6,6 +6,7 @@ import {
   signIn,
 } from 'next-auth/react';
 import { BuiltInProviderType } from 'next-auth/providers';
+import Link from 'next/link';
 
 interface Props {
   providers: Record<
@@ -21,11 +22,13 @@ const signInPage = ({ providers }: Props) => {
       <div className="my-40">
         {Object.values(providers).map((provider) => (
           <div className="flex flex-col items-center" key={provider.name}>
-            <img
-              className="w-52 object-cover"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
-              alt="google logo"
-            />
+            <Link href={'/'}>
+              <img
+                className="w-52 object-cover"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
+                alt="google logo"
+              />
+            </Link>
             <p className="text-sm italic my-10 text-center">
               The website is created for learning purposes
             </p>

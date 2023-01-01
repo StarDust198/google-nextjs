@@ -11,7 +11,7 @@ Simplified close of google made for educational purposes.
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Useful resources & Acknowledgments](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -22,7 +22,7 @@ My goal was to make a website look similar to google on React/NextJS, practice w
 
 ### Links
 
-- Live Site URL - will be available soon: [The future live site URL](https://google.com)
+- Live Site URL: [GoogleNext on Vercel](https://google-nextjs-stardust198.vercel.app/)
 
 ## My process
 
@@ -43,7 +43,7 @@ I've learned to use Google Programmable Search API, to autentificate with NextAu
 
 I'm not planning to develop this project much further, but I can see possibilities of the images page to be made.
 
-### Useful resources
+### Useful resources & Acknowledgments
 
 - [Udemy](https://www.udemy.com) - Great resourse for studying on many specialities
 - [Dr. Sahand Ghavidel's page on Udemy](https://www.udemy.com/user/sahand-ghavidel/) - Teacher, whos courses I would highly recommed to anyone studying Web Development. The app is based on his course, with my additions & TypeScript
@@ -52,4 +52,4 @@ I'm not planning to develop this project much further, but I can see possibiliti
 ## Author
 
 - LinkedIn - [Sergey Zhilinskiy](https://www.linkedin.com/in/mars2030/)
-- Github - [My page](https://github.com/StarDust198), 2022
+- Github - [My page](https://github.com/StarDust198)
